@@ -68,7 +68,7 @@ transfer-encoding: chunked
 }
 ```
 
-3. Call API Gateway to demonstrate curcuit breaker. In order to do so for demo propose change following property in 
+3. Call API Gateway to demonstrate circuit breaker. In order to do so for demo propose change following property in 
 application.yml
 
 ``` yaml
