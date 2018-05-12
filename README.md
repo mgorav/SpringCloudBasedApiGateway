@@ -12,7 +12,7 @@ mvn clean install
 mvn clean install 
 ```
 
-3. Download & run spring-cloud-gateway-sample-api-gateway
+3. Download & run [SpringCloudApiGateway](https://github.com/mgorav/SpringCloudBasedApiGateway)
 
 
 ## Setup Data for gatway
