@@ -69,7 +69,8 @@ transfer-encoding: chunked
 ```
 
 3. Call API Gateway to demonstrate circuit breaker. In order to do so for demo propose change following property in 
-application.yml
+application.yml. This means if a call to mocker takes more than 1 milliseconds, http://localhost:8090/hystrixfallback
+will be called. 
 
 ``` yaml
 hystrix:
