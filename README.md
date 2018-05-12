@@ -75,7 +75,7 @@ will be called.
 ``` yaml
 hystrix:
   command:
-    default:
+    HystrixSlowCommand:
       execution:
         isolation:
           thread:
