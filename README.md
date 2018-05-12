@@ -14,6 +14,11 @@ mvn clean install
 
 3. Download & run [SpringCloudApiGateway](https://github.com/mgorav/SpringCloudBasedApiGateway)
 
+```
+git clone git@github.com:mgorav/SpringCloudBasedApiGateway.git .
+
+mvn clean install
+```
 
 ## Setup Data for gatway
 
