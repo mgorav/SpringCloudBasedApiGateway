@@ -30,7 +30,7 @@ public class ApiGateway {
         return builder.routes()
                 .route("mocker_get_route", r -> r.path("/getmockerscenario/**")
                         .filters(f -> f.rewritePath("/getmockerscenario/(?<segment>.*)", "/mocker/view/${segment}")
-                                .hystrix(c -> c.setName("I_AM_TOO_SLOW")
+                                .hystrix(c -> c.setName("HystrixSlowCommand")
                                         .setFallbackUri("forward:/hystrixfallback")))
                         .uri("http://localhost:8090/mocker/view/scenario/"))
                 .build();
