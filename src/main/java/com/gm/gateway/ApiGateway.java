@@ -26,8 +26,7 @@ public class ApiGateway {
 
 
     @Bean
-    public RouteLocator customRouteLocator(RouteLocatorBuilder builder) {
-        //@formatter:off
+    public RouteLocator routers(RouteLocatorBuilder builder) {
         return builder.routes()
                 .route("mocker_get_route", r -> r.path("/getmockerscenario/**")
                         .filters(f -> f.rewritePath("/getmockerscenario/(?<segment>.*)", "/mocker/view/${segment}")
