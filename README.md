@@ -22,7 +22,7 @@ mvn clean install
 
 ## Setup Data for gateway
 
-**NOTE** Following command uses [httpie]()https://httpie.org) for calling HTTP APIs
+**NOTE** Following command uses [httpie](https://httpie.org) for calling HTTP APIs
 
 1. Call to mocker running on 8090 port for recording following GET request
 
