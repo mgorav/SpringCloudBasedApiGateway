@@ -18,6 +18,8 @@ mvn clean install
 git clone git@github.com:mgorav/SpringCloudBasedApiGateway.git .
 
 mvn clean install
+
+mvn spring-boot run
 ```
 
 ## Setup Data for gateway
