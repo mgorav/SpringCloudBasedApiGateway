@@ -1,4 +1,10 @@
-# Spring Cloud API Gateway Example
+# Spring Cloud API Gateway/Edge Service Example
+
+Service Mesh & API Gateway plays a very important part in compositional microservices architecture. In good old days ESB/Application server were used to provide abilities to implement horizontal concerns like circuit breaker, proxying, security, caching (ETAG), client side load balancing etc. Horizontal concerns should be implemented in Service Mesh/API Gateway rather than in each microservice.  Developers should develop business logic in microservice without bothering about horizontal concerns. Checkout Spring Cloud Gateway framework based sample edge service which demonstrates implementation of following concepts:
+1. Proxying - using url rewriting, pattern matching & replacing
+2. Circuit breaker - HystrixSlowCommand breaks the circuit if the service is slow
+3. Security - spring security
+
 
 ## Pre-requisite
 
